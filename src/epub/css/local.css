@@ -1,6 +1,19 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* Emulate h2 style */
+article section header p{
+	break-after: avoid;
+	break-inside: avoid;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	font-weight: bold;
+	hyphens: none;
+	-epub-hyphens: none;
+	margin: 3em 0;
+	text-align: center;
+}
+
 /* Poetry and verse */
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p{
