@@ -76,8 +76,30 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/art.xhtml" id="art.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/character.xhtml" id="character.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/circles.xhtml" id="circles.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/compensation.xhtml" id="compensation.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/experience.xhtml" id="experience.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/friendship.xhtml" id="friendship.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/gifts.xhtml" id="gifts.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/heroism.xhtml" id="heroism.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/history.xhtml" id="history.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/intellect.xhtml" id="intellect.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/love.xhtml" id="love.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/manners.xhtml" id="manners.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/nature.xhtml" id="nature.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/new-england-reformers.xhtml" id="new-england-reformers.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/nominalist-and-realist.xhtml" id="nominalist-and-realist.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/politics.xhtml" id="politics.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/prudence.xhtml" id="prudence.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/self-reliance.xhtml" id="self-reliance.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/spiritual-laws.xhtml" id="spiritual-laws.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-over-soul.xhtml" id="the-over-soul.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-poet.xhtml" id="the-poet.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -85,6 +107,28 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="history.xhtml"/>
+		<itemref idref="self-reliance.xhtml"/>
+		<itemref idref="compensation.xhtml"/>
+		<itemref idref="spiritual-laws.xhtml"/>
+		<itemref idref="love.xhtml"/>
+		<itemref idref="friendship.xhtml"/>
+		<itemref idref="prudence.xhtml"/>
+		<itemref idref="heroism.xhtml"/>
+		<itemref idref="the-over-soul.xhtml"/>
+		<itemref idref="circles.xhtml"/>
+		<itemref idref="intellect.xhtml"/>
+		<itemref idref="art.xhtml"/>
+		<itemref idref="the-poet.xhtml"/>
+		<itemref idref="experience.xhtml"/>
+		<itemref idref="character.xhtml"/>
+		<itemref idref="manners.xhtml"/>
+		<itemref idref="gifts.xhtml"/>
+		<itemref idref="nature.xhtml"/>
+		<itemref idref="politics.xhtml"/>
+		<itemref idref="nominalist-and-realist.xhtml"/>
+		<itemref idref="new-england-reformers.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
