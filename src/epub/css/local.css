@@ -14,6 +14,12 @@ article section header p{
 	text-align: center;
 }
 
+/* Elision */
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
+}
+
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
