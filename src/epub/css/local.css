@@ -34,6 +34,12 @@ span.elision{
 }
 /* End all epigraphs */
 
+/* Add page breaks after epigraph poems */
+[epub|type~="epigraph"] > [epub|type~="z3998:poem"],
+[epub|type~="epigraph"] > [epub|type~="z3998:verse"]{
+	page-break-after: always;
+}
+
 /* Letters */
 [epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
