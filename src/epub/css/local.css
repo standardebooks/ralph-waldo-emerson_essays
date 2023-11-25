@@ -34,6 +34,38 @@ span.elision{
 }
 /* End all epigraphs */
 
+/* Full page epigraphs */
+[epub|type~="epigraph"] > *{
+	text-align: center;
+}
+
+[epub|type~="epigraph"] > * > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+	text-align: initial;
+}
+
+@supports(display: flex){
+	[epub|type~="epigraph"] > *{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 3em;
+	}
+
+	[epub|type~="epigraph"] > * > *{
+		margin: 0;
+	}
+
+	[epub|type~="epigraph"] > * > * + *{
+		margin-top: 3em;
+	}
+}
+
 /* Add page breaks after epigraph poems */
 [epub|type~="epigraph"] > [epub|type~="z3998:poem"],
 [epub|type~="epigraph"] > [epub|type~="z3998:verse"]{
