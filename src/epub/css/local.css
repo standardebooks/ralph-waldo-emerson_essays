@@ -66,6 +66,27 @@ span.elision{
 	}
 }
 
+/* Remove padding from Art poem to keep it on same page as the h2 */
+#art [epub|type~="epigraph"] > blockquote{
+	padding-top: 0;
+}
+
+/* Specify min-height for epigraph poems/verse to centre the first poem on the page */
+section[id$="epigraph"] > blockquote[epub|type~="z3998:poem"],
+section[id$="epigraph"] > blockquote[epub|type~="z3998:verse"]{
+	min-height: calc(52vh - 3em);
+}
+
+/* Set min-height to vertically centre second poem in essays with two epigraph poems */
+#character [epub|type~="epigraph"] > blockquote:nth-of-type(2),
+#compensation [epub|type~="epigraph"] > blockquote:nth-of-type(2),
+#history [epub|type~="epigraph"] > blockquote:nth-of-type(2),
+#self-reliance [epub|type~="epigraph"] > blockquote:nth-of-type(3),
+#the-over-soul [epub|type~="epigraph"] > blockquote:nth-of-type(2),
+#the-poet [epub|type~="epigraph"] > blockquote:nth-of-type(2){
+	min-height: calc(98vh - 3em);
+}
+
 /* Add page breaks after epigraph poems */
 [epub|type~="epigraph"] > [epub|type~="z3998:poem"],
 [epub|type~="epigraph"] > [epub|type~="z3998:verse"]{
