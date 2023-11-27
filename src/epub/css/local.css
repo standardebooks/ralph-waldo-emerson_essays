@@ -1,6 +1,12 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* All caps style in Spiritual Laws */
+#spiritual-laws strong{
+	font-variant: normal;
+	text-transform: uppercase;
+}
+
 /* Emulate h2 style */
 article section header p{
 	break-after: avoid;
