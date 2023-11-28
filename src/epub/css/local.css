@@ -175,4 +175,14 @@ p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
 }
+
+p span.i5{
+	padding-left: 6em;
+	text-indent: -1em;
+}
+
+p span.i6{
+	padding-left: 7em;
+	text-indent: -1em;
+}
 /* End poetry and verse */
