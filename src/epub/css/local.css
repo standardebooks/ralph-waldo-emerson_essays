@@ -1,10 +1,10 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-/* All caps style in Spiritual Laws */
-#spiritual-laws strong{
-	font-variant: normal;
-	text-transform: uppercase;
+/* Add page breaks after epigraph poems */
+article > header > blockquote[epub|type~="z3998:poem"],
+article > header > blockquote[epub|type~="z3998:verse"]{
+	page-break-after: always;
 }
 
 /* Drama formatting */
@@ -46,19 +46,6 @@
 	font-variant: all-small-caps;
 }
 
-/* Emulate h2 style */
-article section header p{
-	break-after: avoid;
-	break-inside: avoid;
-	font-size: 1.5em;
-	font-variant: small-caps;
-	font-weight: bold;
-	hyphens: none;
-	-epub-hyphens: none;
-	margin: 3em 0;
-	text-align: center;
-}
-
 /* Elision */
 span.elision{
 	margin: .5em;
@@ -79,63 +66,34 @@ span.elision{
 }
 /* End all epigraphs */
 
-/* Full page epigraphs */
-[epub|type~="epigraph"] > *{
-	text-align: center;
-}
-
-[epub|type~="epigraph"] > * > *{
+/* Epigraphs in section headers */
+article > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
-	margin-top: 3em;
 	max-width: 80%;
 	text-align: initial;
 }
 
-@supports(display: flex){
-	[epub|type~="epigraph"] > *{
-		align-items: center;
-		box-sizing: border-box;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		padding-top: 3em;
-	}
-
-	[epub|type~="epigraph"] > * > *{
-		margin: 0;
-	}
-
-	[epub|type~="epigraph"] > * > * + *{
-		margin-top: 3em;
-	}
+article > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
 }
 
+@supports(display: table){
+	article > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
 /* Remove padding from Art poem to keep it on same page as the h2 */
-#art [epub|type~="epigraph"] > blockquote{
+#art [epub|type~="epigraph"]{
 	padding-top: 0;
 }
 
-/* Specify min-height for epigraph poems/verse to centre the first poem on the page */
-section[id$="epigraph"] > blockquote[epub|type~="z3998:poem"],
-section[id$="epigraph"] > blockquote[epub|type~="z3998:verse"]{
-	min-height: calc(52vh - 3em);
-}
-
-/* Set min-height to vertically centre second poem in essays with two epigraph poems */
-#character [epub|type~="epigraph"] > blockquote:nth-of-type(2),
-#compensation [epub|type~="epigraph"] > blockquote:nth-of-type(2),
-#history [epub|type~="epigraph"] > blockquote:nth-of-type(2),
-#self-reliance [epub|type~="epigraph"] > blockquote:nth-of-type(3),
-#the-over-soul [epub|type~="epigraph"] > blockquote:nth-of-type(2),
-#the-poet [epub|type~="epigraph"] > blockquote:nth-of-type(2){
-	min-height: calc(98vh - 3em);
-}
-
-/* Add page breaks after epigraph poems */
-[epub|type~="epigraph"] > [epub|type~="z3998:poem"],
-[epub|type~="epigraph"] > [epub|type~="z3998:verse"]{
-	page-break-after: always;
+/* All caps style in Spiritual Laws */
+#spiritual-laws strong{
+	font-variant: normal;
+	text-transform: uppercase;
 }
 
 /* Letters */
