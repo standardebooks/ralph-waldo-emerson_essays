@@ -85,17 +85,6 @@ article > header [epub|type~="epigraph"] + *{
 }
 /* End epigraphs in section headers */
 
-/* Remove padding from Art poem to keep it on same page as the h2 */
-#art [epub|type~="epigraph"]{
-	padding-top: 0;
-}
-
-/* All caps style in Spiritual Laws */
-#spiritual-laws strong{
-	font-variant: normal;
-	text-transform: uppercase;
-}
-
 /* Letters */
 [epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
