@@ -33,6 +33,8 @@
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="se:subject">Nonfiction</meta>
 		<meta property="se:subject">Philosophy</meta>
+		<meta id="collection-3" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
+		<meta property="collection-type" refines="#collection-3">set</meta>
 		<dc:description id="description">A collection of Ralph Waldo Emerson’s essays.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The titles of &lt;a href="https://standardebooks.org/ebooks/ralph-waldo-emerson"&gt;Ralph Waldo Emerson’s&lt;/a&gt; essays consist of a range of general concepts such as character, experience, friendship, history, intellect, love, nature, politics, prudence and, most famously, self-reliance. However, in no case is the content of an essay limited to considerations relevant to its title concept. Emerson’s style is digressive and aphoristic, his lengthy paragraphs strewn with terse, dogmatic assertions. The pieces record the diffuse preconceptions and opinions of the author, typically without arguing for them.&lt;/p&gt;
