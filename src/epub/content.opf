@@ -52,7 +52,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/2945</dc:source>
 		<dc:source>https://archive.org/details/essaysseries00emerrich</dc:source>
 		<meta property="se:production-notes">The essays compiled here were originally published in two volumes, in 1841 and 1844 respectively, and later began to be released together in single-volume editions. Scans of a 1908 single-volume edition were used for this production. That 1908 edition omits many of the epigraph poems from the earlier separate-volume editions: among the First Series essays, all epigraph poems except those prefacing "History", "Self-Reliance", and "The Over-Soul" are missing, while among the Second Series essays only the poem prefacing "New England Reformers" is missing. The missing poems have been restored here. The Gutenberg transcription and earlier editions of the essays also contained a line in "Compensation" that was missing from the 1908 scans, while the 1908 scans contained a verse quotation in the essay "Love" that was missing from the transcription. Both have been retained.</meta>
-		<meta property="se:word-count">133142</meta>
+		<meta property="se:word-count">132881</meta>
 		<meta property="se:reading-ease.flesch">66.07</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Essays_(Emerson)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ralph-waldo-emerson_essays</meta>
