@@ -38,7 +38,7 @@
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta id="collection-3" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-3">set</meta>
-		<dc:abstract>A collection of Ralph Waldo Emerson’s essays.</dc:abstract>
+		<meta property="schema:abstract">A collection of Ralph Waldo Emerson’s essays.</meta>
 		<dc:description>
 			&lt;p&gt;The titles of &lt;a href="https://standardebooks.org/ebooks/ralph-waldo-emerson"&gt;Ralph Waldo Emerson’s&lt;/a&gt; essays consist of a range of general concepts such as character, experience, friendship, history, intellect, love, nature, politics, prudence and, most famously, self-reliance. However, in no case is the content of an essay limited to considerations relevant to its title concept. Emerson’s style is digressive and aphoristic, his lengthy paragraphs strewn with terse, dogmatic assertions. The pieces record the diffuse preconceptions and opinions of the author, typically without arguing for them.&lt;/p&gt;
 			&lt;p&gt;“Nature,” Emerson’s first published essay, was published independently five years before his first collection of essays. It became a foundational text for transcendentalism, the New England intellectual movement that upheld the divine character of the natural world and the importance of spiritual connection with it. In its emphasis on reason, individual conscience, and innate human goodness, transcendentalism was related to Unitarianism, where Emerson began his career as a minister. While Emerson resigned from this post after only a few years, he retained a lifelong concern with religion and theology that is frequently manifest in his essays.&lt;/p&gt;
