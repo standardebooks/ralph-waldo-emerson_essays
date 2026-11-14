@@ -4,7 +4,7 @@
 /* Add page breaks after epigraph poems */
 article > header > blockquote[epub|type~="z3998:poem"],
 article > header > blockquote[epub|type~="z3998:verse"]{
-	page-break-after: always;
+	break-after: always;
 }
 
 /* Drama formatting */
