@@ -60,7 +60,7 @@
 		<!-- Second Series -->
 		<dc:source>https://www.gutenberg.org/ebooks/2945</dc:source>
 		<dc:source>https://archive.org/details/essaysseries00emerrich</dc:source>
-		<meta property="schema:wordCount">132881</meta>
+		<meta property="schema:wordCount">132877</meta>
 		<meta property="schema:educationalLevel">66.07</meta>
 		<link href="https://en.wikipedia.org/wiki/Essays_(Emerson)" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
